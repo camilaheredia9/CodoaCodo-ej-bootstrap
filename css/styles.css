@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80vw;
+    margin: auto;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+}
+
+.card img{
+    height: 12rem;
+}
+
+.form-floating>label{
+    position: relative;
+    padding-left: 0;
+}
+
+.form-floating>.form-control {
+    margin-bottom: 1.4rem;
+}
+
+.btn-primary{
+    margin: 1rem 0;
+}
